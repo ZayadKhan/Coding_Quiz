@@ -16,14 +16,37 @@
           </button>
       </nav>
 
+<h1 id="mainHeader">Countdown: <span id="timerEl">60</span></h1>
+
+
 <div class="container">
         <div class="jumbotron">
           <h1>Javascript Quiz.</h1>      
           <p>It's time to test those newly learned javascript skills with a short quiz!</p>
         </div>
         <p>Click the button below to start the quiz.</p>      
-        <button type="button" class="btn" id="startquiz">Start Quiz</button>      
+        <button type="button" class="btn" id="quizBtn">Start Quiz</button>      
       </div>    
 </div>
+
+    <!-- Shows countdown -->
+    <div id="finalScoreDisplay" style="display: none;">
+      <h3 id="finalScoreHeader"></h3>
+      <label>Enter your initials</label>
+      <input id="userInput"></input>
+      <button id="submitInitials">Submit</button>
+    </div>
+    <h3 id="questionEl"></h3>
+    <div id="answerEls"></div>
+    <h3 id="verifyAnswer"></h3>
+    <div id="displayResults"></div>
+
+    <div id="highScorePage" style="display: none">
+      <div id="highScoreList" style="display:none"></div>
+      <button id="goBack">Go Back</button>
+      <button id="clearHighScores">Clear High Scores</button>
+    </div>
 </body>
+<script src="/assets/Java/scripts.js"></script>
+<script src="/assets/Java/questions.js"></script>
 </html>
