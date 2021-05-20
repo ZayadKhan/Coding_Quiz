@@ -1,3 +1,5 @@
+https://zayadkhan.github.io/Coding_Quiz/
+
 Technologies Used:
 
     HTML
