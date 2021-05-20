@@ -1,0 +1,18 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.choiceBtn  {
+    display: block;
+
+}
+button {
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}

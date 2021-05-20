@@ -53,7 +53,7 @@ function displayQuestion() {
   var question = questions[index];
   // remove the last question
   // question shows up on the page
-  questionEl.textContent = question.title;
+  questionEl.textContent = question.question;
 
   // remove the last answers
   answerEls.textContent = "";
@@ -71,13 +71,6 @@ function displayQuestion() {
     //initializes and adds choiceBtn to class list
     // WHEN I answer a question
     choiceBtn.addEventListener("click", answerQuestion);
-
-    //  <div id='answerEls'>
-    //      <button class='choiceBtn'>{{choice[0]}}</button>
-    //      <button class='choiceBtn'>{{choice[1]}}</button>
-    //      <button class='choiceBtn'>{{choice[2]}}</button>
-    //  </div>
-
     answerEls.append(choiceBtn);
   }
 }
