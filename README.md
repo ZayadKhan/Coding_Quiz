@@ -12,10 +12,13 @@ Objective:
 Contents:
 
 HTML:
+
     index.html
+    
 Index.html is the only html file on the project and functions as the main page where the quiz is taken place with a 60 second timer and has the highscore displayed at the end.
 
 Javascript:
+
     scripts.js
     questions.js
 
