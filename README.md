@@ -1,55 +1,22 @@
-# Coding_Quiz
-```
+Technologies Used:
 
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-click handler is triggered on the start button
-timer starts
-question shows up on the page
-show the multiple choice answers
+    HTML
+    CSS
+    Javascript
 
+Objective:
 
-WHEN I answer a question
-THEN I am presented with another question
-click handler is triggered on what the user clicked on
-shows if the answer is correct or not correct
-remove the last question
-remove the last answers
-after a short time,
-remove incorrect/correct,
-show the new question
+    The objects of this assignment was to create a code quiz page from scratch. A user is presented with a quiz when then view the page. There are 4 questions on the quiz but more can be easily added by adding more quesitons to the questions.js file. The questions.js file holds an array of objects, the object consists of the question itself, 4 choices and an answer.
+    When the user starts the quiz the timer will start and will then have 60 seconds to complete the 4 questions.
 
+Contents:
 
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-if the answer is incorrect,
-decrement the timer's time
+HTML:
+    index.html
+Index.html is the only html file on the project and functions as the main page where the quiz is taken place with a 60 second timer and has the highscore displayed at the end.
 
+Javascript:
+    scripts.js
+    questions.js
 
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-stop the timer
-remove the question from display
-remove incorrect/correct
-show quiz results
-
-WHEN the game is over
-THEN I can save my initials and score
-show a text box for putting my name in
-take the current high score from storage
-modify the high score to include the user
-save the current high score into storage
-remove input form
-show the high score page
-
-```
-
-## Some of the things that I need are...
-
-* Array of questions
-* Timer
-* Click handlers (functions that do click events)
-* HTML templates for Right/Wrong, Questions, Answers, High scores
-* Stylesheets for each template
-* Array of objects for the high scores (Scoreboard and a way to save it)
+There are two script files in the project. The main file, scripts.js hold all the logic for the page which will display the questions and start the timer. The secondary file, questions.js hold the questions and answers for the main file to post onto the main page.
